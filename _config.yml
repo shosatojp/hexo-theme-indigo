@@ -1,15 +1,15 @@
 # hexo-theme-indigo
-# https://github.com/yscoder/hexo-theme-indigo
+# https://github.com/SatoMasuda/hexo-theme-indigo
 
 # 添加新菜单项遵循以下规则
 # menu:
 #  link:               fontawesome图标，省略前缀，本主题前缀为 icon-，必须
-#    text: About       菜单显示的文字，如果省略即默认与图标一致，首字母会转大写
-#    url: /about       链接，绝对或相对路径，必须。
-#    target: _blank    是否跳出，省略则在当前页面打开
+#    text: About       メニューに表示されるテキスト。省略した場合、デフォルトはアイコンと同じ。最初の文字は大文字になる。
+#    url: /about       絶対パスまたは相対パス、必須。
+#    target: _blank    ポップアップするかどうか、省略した場合は現在のページで開く
 menu:
   home:
-    text: 主页
+    text: Home
     url: /
   archives:
     url: /archives
@@ -19,75 +19,72 @@ menu:
     text: Categories
     url: /categories
   github:
-    url: https://github.com/yscoder
-    target: _blank
-  weibo:
-    url: http://www.weibo.com/ysweb
+    url: https://github.com/<input-your-github-id>
     target: _blank
   link:
-    text: 测试
+    text: Test
     url: /custom
 
-# 你的头像url
+# アバターのURL
 avatar: /img/avatar.jpg
 # avatar link
 avatar_link: /
-# 头像背景图
+# アバターの背景
 brand: /img/brand.jpg
 # favicon
 favicon: /favicon.ico
 
 # email
-email: 634206017@qq.com
+email: <input-your-email-address>
 
-# 设置 Android L Chrome 浏览器状态栏颜色
+# 色の設定 （例はAndroid L Chrome のステータスバーの色）
 color: '#3F51B5'
 
-# 页面标题
+# ページタイトル
 tags_title: Tags
 archives_title: Archives
 categories_title: Categories
 
-# 文章截断
+# 記事の要約
 excerpt_render: false
 excerpt_length: 200
-excerpt_link: 阅读全文...
+excerpt_link: 全文を読む...
 mathjax: false
 archive_yearly: true
 
-# 是否显示文章最后更新时间
+# 記事の最終更新時刻を表示するかどうか
 show_last_updated: true
 
-# 是否开启分享
+# 共有を開くかどうか
 share: true
 
-# 是否开启打赏，关闭 reward: false
+# 報酬を開くか、報酬を閉じるか。(:false)
 reward:
-  title: 谢谢大爷~
+  title: おじいさんありがとうございます〜
   wechat: /img/wechat.jpg     #微信，关闭设为 false
   alipay: /img/alipay.jpg     #支付宝，关闭设为 false
 
-# 是否开启搜索
+# 検索機能を有効化するか
 search: true
 
-# 是否大屏幕下文章页隐藏导航
+# メニューナビゲーションを表示するか
 hideMenu: true
 
-# 是否开启toc
+# 目次(toc)を表示するか
 # toc: false
 toc:
-  list_number: true  # 是否显示数字排序
+  list_number: true  # ナンバリングするか
 
-# 文章页留言内容，hexo中所有变量及辅助函数等均可调用，具体请查阅 hexo.io
-postMessage: 这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>
+# ページ末尾の内容。すべての変数およびhexoの補助関数を呼び出すことができる。hexo.ioを参照。
+postMessage: ここで作成者のメッセージを記述できます。タグ内ですべての変数とhexoの補助関数を呼び出すことができます。例：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>
 
-# 站长统计，如要开启，输入CNZZ站点id，如 cnzz: 1255152447
+# CNZZ(中国のトラフィック統計サイト)を使用するか、使用する場合はidを入力(cnzz: 123456789)
 cnzz: false
 
-# 百度统计，如要开启，改为你的 key
+# Baidu分析。(:false|:<your-key>)
 baidu_tongji: false
 
-# 腾讯分析，如要开启，输入站点id
+# Tencent分析。(:false|:<your-id>)
 tajs: false
 
 # google
