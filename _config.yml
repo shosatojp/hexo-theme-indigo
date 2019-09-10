@@ -11,7 +11,7 @@ menu:
   home:
     text: Home
     url: /
-  about:
+  link:
     text: About
     url: /about
   archives:
