@@ -49,7 +49,10 @@ categories_title: Categories
 excerpt_render: false
 excerpt_length: 200
 excerpt_link: 全文を読む...
-mathjax: false
+# 要約中のMathjax有効化
+excerpt_mathjax: false
+# 記事中のMathjax有効化
+mathjax: true
 archive_yearly: true
 
 # 記事の最終更新時刻を表示するかどうか
