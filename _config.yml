@@ -106,7 +106,7 @@ less:
 # 以下はコメントプラグイン
 # disqus
 disqus_shortname: false
-# 是否开启友言评论, 填写友言用户id
+# 友言(中国のコメントプラグイン)を使用するか(id|false)
 uyan_uid: false
 # gitmentを使用するか https://github.com/imsun/gitment
 gitment: false
@@ -159,15 +159,15 @@ visit_counter:
 
 # 動的なタイトル
 title_change:
-  normal: 
+  normal: おかえり
   leave: いっちゃらめぇ～
 
 # trueに設定すると、unpkg cdnの最新のテーマスタイルが使用されます
 # カスタムスタイルを有効にする場合は、これをfalseに設定します
 cdn: true
 
-# 设置为 true 将使用 lightbox render 图片
+# lightbox(画像ポップアップ)を使用するか https://github.com/lokesh/lightbox2
 lightbox: true
 
-# icp备案号  ICP_license: 京ICP备1234556号-1
+# ICP(中国国内のサーバから発信するすべてのWebサイトに義務付けられている登録制度)  ICP_license: 京ICP备1234556号-1
 ICP_license: false
