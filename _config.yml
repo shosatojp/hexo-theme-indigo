@@ -76,7 +76,7 @@ toc:
   list_number: true  # ナンバリングするか
 
 # ページ末尾の内容。すべての変数およびhexoの補助関数を呼び出すことができる。hexo.ioを参照。
-postMessage: ここで作成者のメッセージを記述できます。タグ内ですべての変数とhexoの補助関数を呼び出すことができます。例：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>
+postMessage: false
 
 # CNZZ(中国のトラフィック統計サイト)を使用するか、使用する場合はidを入力(cnzz: 123456789)
 cnzz: false
