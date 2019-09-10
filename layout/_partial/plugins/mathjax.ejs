@@ -1,4 +1,4 @@
-<% if (theme.mathjax){ %>
+<% if (page.layout==='post'?theme.mathjax:theme.excerpt_mathjax){ %>
 <!-- mathjax config similar to math.stackexchange -->
 
 <script type="text/x-mathjax-config">

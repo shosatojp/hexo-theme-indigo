@@ -4,6 +4,7 @@
 @color-facebook: #4862A3;
 @color-twitter: #55ACEE;
 @color-google-plus: #db4437;
+@color-line: #00B900;
 
 .share-icons {
     li {
@@ -40,6 +41,10 @@
 
         &.twitter {
             background: @color-twitter
+        }
+
+        &.line {
+            background: @color-line
         }
 
         &.google {
@@ -155,7 +160,7 @@
             transform-origin: center bottom;
 
             &:before {
-                content: '分享到'attr(data-title)
+                content: attr(data-title)'でシェアする'
             }
 
         }
