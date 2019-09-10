@@ -1,9 +1,9 @@
 # hexo-theme-indigo
 # https://github.com/SatoMasuda/hexo-theme-indigo
 
-# 添加新菜单项遵循以下规则
+# 下記のルールで新しいメニュー項目を追加
 # menu:
-#  link:               fontawesome图标，省略前缀，本主题前缀为 icon-，必须
+#  link:               fontawesomeの接頭辞「icon-」を省略した名前。この場合は「icon-link」が使用される。
 #    text: About       メニューに表示されるテキスト。省略した場合、デフォルトはアイコンと同じ。最初の文字は大文字になる。
 #    url: /about       絶対パスまたは相対パス、必須。
 #    target: _blank    ポップアップするかどうか、省略した場合は現在のページで開く
