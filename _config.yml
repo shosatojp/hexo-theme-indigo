@@ -157,7 +157,7 @@ visit_counter:
 # 動的なタイトル
 title_change:
   normal: 
-  leave: いっちゃだめぇ～
+  leave: いっちゃらめぇ～
 
 # trueに設定すると、unpkg cdnの最新のテーマスタイルが使用されます
 # カスタムスタイルを有効にする場合は、これをfalseに設定します
