@@ -159,8 +159,8 @@ title_change: false
 # カスタムスタイルを有効にする場合は、これをfalseに設定します
 cdn: false
 
-# 设置为 true 将使用 lightbox render 图片
+# lightbox(画像ポップアップ)を使用するか https://github.com/lokesh/lightbox2
 lightbox: true
 
-# icp备案号  ICP_license: 京ICP备1234556号-1
+# ICP(中国国内のサーバから発信するすべてのWebサイトに義務付けられている登録制度)  ICP_license: 京ICP备1234556号-1
 ICP_license: false
