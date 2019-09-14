@@ -1,13 +1,15 @@
 <footer class="footer">
+    <% if(theme.show_creative_commons_license || theme.show_feed_icon) {%>
     <div class="top">
         <%- partial('plugins/site-visit') %>
-        <p>
-            <% if ((config.feed) && (config.feed.path.length)) { %>
-                <span><a href="<%- url_for(config.feed.path) %>" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
-            <% } %>
-            <span><%- __('footer.license') %></span>
-        </p>
+            <p>
+                <% if ((theme.show_feed_icon)&&(config.feed) && (config.feed.path.length)) { %>
+                    <span><a href="<%- url_for(config.feed.path) %>" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+                <% } %>
+                <% if(theme.show_creative_commons_license) {%><span><%- __('footer.license') %></span><% } %>
+            </p>
     </div>
+    <% } %>
     <div class="bottom">
         <p><span><%-config.author %> &copy; <%if (theme.since_year && theme.since_year < date(new Date(), 'YYYY')) {%><%- theme.since_year %> - <%}%><%- date(new Date(), 'YYYY') %></span>
             <span>
