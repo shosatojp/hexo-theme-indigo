@@ -171,3 +171,9 @@ lightbox: true
 
 # ICP(中国国内のサーバから発信するすべてのWebサイトに義務付けられている登録制度)  ICP_license: 京ICP备1234556号-1
 ICP_license: false
+
+# クリエイティブコモンズの表示オプション
+show_creative_commons_license: true
+
+# フッタのフィードアイコンの表示
+show_feed_icon: true
