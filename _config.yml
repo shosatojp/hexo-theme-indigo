@@ -102,7 +102,7 @@ less:
 
 # 以下はコメントプラグイン
 # disqus
-disqus_shortname: blog-shosato-jp
+disqus_shortname: false #blog-shosato-jp
 # 是否开启友言评论, 填写友言用户id
 uyan_uid: false
 # gitmentを使用するか https://github.com/imsun/gitment
