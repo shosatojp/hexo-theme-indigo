@@ -177,3 +177,15 @@ show_creative_commons_license: true
 
 # フッタのフィードアイコンの表示
 show_feed_icon: true
+
+color_scheme:
+  header_background:
+  header_text:
+  footer_background:
+  footer_text:
+  tags: []
+  category:
+  button: 
+  post:
+    inline_code:
+    text:
