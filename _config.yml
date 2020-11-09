@@ -88,7 +88,7 @@ baidu_tongji: false
 tajs: false
 
 # google
-google_analytics: UA-140143510-2
+google_analytics: false
 google_site_verification: false
 
 # Sogou Webマスター検証 http://zhanzhang.sogou.com/
